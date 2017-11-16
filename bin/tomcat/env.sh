@@ -2,10 +2,8 @@
 
 if [ -z "$APP_NAME" ] ; then
   export APP_NAME=xxx
-  cd ../../
-  export NODE_PATH=$(pwd)
+  export NODE_PATH=p_home
   export app_conf=$NODE_PATH/conf
-  cd -
 fi
 
 TOMCAT_LOG=$NODE_PATH/logs/catalina.out
@@ -16,7 +14,7 @@ JAVA_OPTS_EXT=" -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Dappli
 
 JAVA_DEBUG=" -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8088 "
 
-#export JAVA_OPTIONS="$JAVA_MEM_OPTS $JAVA_OPTS_EXT "
+export JAVA_OPTIONS="$JAVA_MEM_OPTS $JAVA_OPTS_EXT "
 
 if [ -z "$TOMCAT_HOME" ] ; then
     echo "Please set TOMCAT_HOME1"

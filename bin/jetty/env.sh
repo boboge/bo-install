@@ -2,8 +2,7 @@
 
 if [ -z "$APP_NAME" ] ; then
   export APP_NAME=xxx
-  cd ../../
-  export NODE_PATH=$(pwd)
+  export NODE_PATH=p_home
   export app_conf=$NODE_PATH/conf
   cd -
 fi
