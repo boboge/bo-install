@@ -56,7 +56,7 @@
 ├── bin <br>
 │   ├── jetty <br>
 * 7.执行 sh jettyrestart.sh  <br>
-* 8.![](http://7xt9nt.com1.z0.glb.clouddn.com/5a254e68e4b0dce0803585fb?e=1512397944&token=trhI0BY8QfVrIGn9nENop6JAc6l5nZuxhjQ62UfM:Q4M91Dn3vJyKnLGdDD6teR0fz9o=) 看到能访问说明成功！
+* 8.打开浏览器localhost:8080/ ![](http://7xt9nt.com1.z0.glb.clouddn.com/5a254e68e4b0dce0803585fb?e=1512397944&token=trhI0BY8QfVrIGn9nENop6JAc6l5nZuxhjQ62UfM:Q4M91Dn3vJyKnLGdDD6teR0fz9o=) 看到能访问说明成功！
 
  
  
