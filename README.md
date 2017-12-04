@@ -31,7 +31,7 @@
 ├── test.war //测试war包 <br>
 └── tomcat //存放tomcat的目录 <br>
 
-* 2.QUICK START （jetty）
+#### QUICK START （jetty）
 * 1.将你需要的版本放入上述jetty目录，注意jetty是根目录 <br>
 * 2.回到init.sh <br>
 * 3.执行 sh init.sh test 8080 <br>
