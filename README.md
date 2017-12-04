@@ -14,23 +14,6 @@
 * 它只需要sh jettyrestart.sh 或 sh tomcatrestart.sh就能完成项目的重启 <br>
 
 
-### bo-install 详细用法
-* 1.目录介绍 <br>
-├── bin <br>
-│   ├── jetty <br>
-│   │   ├── env.sh //jetty环境变量 <br> 
-│   │   ├── jettyrestart.sh //jetty启动脚本 <br>
-│   │   └── jetty.sh <br>
-│   └── tomcat <br>
-│       ├── env.sh  //tomcat环境变量 <br>
-│       ├── tomcatrestart.sh //tomcat启动脚本 <br>
-│       └── tomcat.sh <br>
-├── init.sh //构建的主要shell <br>
-├── jetty //存放jetty的目录 <br>
-├── README.md <br>
-├── test.war //测试war包 <br>
-└── tomcat //存放tomcat的目录 <br>
-
 #### QUICK START （jetty）
 * 1.将你需要的版本放入上述jetty目录，注意jetty是根目录 <br>
 * 2.回到init.sh <br>
@@ -59,7 +42,22 @@
 * 8.打开浏览器localhost:8080/ ![](http://7xt9nt.com1.z0.glb.clouddn.com/5a254e68e4b0dce0803585fb?e=1512397944&token=trhI0BY8QfVrIGn9nENop6JAc6l5nZuxhjQ62UfM:Q4M91Dn3vJyKnLGdDD6teR0fz9o=) 看到能访问说明成功！
 
  
- 
+ ### bo-install 详细用法
+* 1.目录介绍 <br>
+├── bin <br>
+│   ├── jetty <br>
+│   │   ├── env.sh //jetty环境变量 <br> 
+│   │   ├── jettyrestart.sh //jetty启动脚本 <br>
+│   │   └── jetty.sh <br>
+│   └── tomcat <br>
+│       ├── env.sh  //tomcat环境变量 <br>
+│       ├── tomcatrestart.sh //tomcat启动脚本 <br>
+│       └── tomcat.sh <br>
+├── init.sh //构建的主要shell <br>
+├── jetty //存放jetty的目录 <br>
+├── README.md <br>
+├── test.war //测试war包 <br>
+└── tomcat //存放tomcat的目录 <br>
 
 
 
