@@ -7,29 +7,29 @@
 使用方法比较简单 sh init.sh 项目名称 端口号 tomcat端口列表（选填）,会在上级目录生产一个项目，最后sh jettyrestart.sh 或者 sh tomcatrestart.sh即可
 
 ### bo-install 是什么
-* 它是一个Linux下快速搭建 java web容器的 shell脚本集合
-* 它使用非常简单只需要 一句shell命令 sh init.sh 项目名称 端口号
-* 它使单台Linux部署多个tomcat、多个jetty实例变的非常简单,
-* 它切换tomcat、jetty版本非常简单只需在最外层的jetty目录或者tomcat目录放置你想要的版本即可
-* 它只需要sh jettyrestart.sh 或 sh tomcatrestart.sh就能完成项目的重启
+* 它是一个Linux下快速搭建 java web容器的 shell脚本集合 <br>
+* 它使用非常简单只需要 一句shell命令 sh init.sh 项目名称 端口号 <br>
+* 它使单台Linux部署多个tomcat、多个jetty实例变的非常简单 <br>
+* 它切换tomcat、jetty版本非常简单只需在最外层的jetty目录或者tomcat目录放置你想要的版本即可 <br>
+* 它只需要sh jettyrestart.sh 或 sh tomcatrestart.sh就能完成项目的重启 <br>
 
 
 ### bo-install 详细用法
-*1.目录介绍
-*├── bin
-*│   ├── jetty
-*│   │   ├── env.sh //jetty环境变量
-*│   │   ├── jettyrestart.sh //jetty启动脚本
-*│   │   └── jetty.sh
-*│   └── tomcat
-*│       ├── env.sh  //tomcat环境变量
-*│       ├── tomcatrestart.sh //tomcat启动脚本
-*│       └── tomcat.sh
-*├── init.sh //构建的主要shell
-*├── jetty //存放jetty的目录
-*├── README.md
-*├── test.war //测试war包
-*└── tomcat //存放tomcat的目录
+*1.目录介绍 <br>
+*├── bin <br>
+*│   ├── jetty <br>
+*│   │   ├── env.sh //jetty环境变量 <br> 
+*│   │   ├── jettyrestart.sh //jetty启动脚本 <br>
+*│   │   └── jetty.sh <br>
+*│   └── tomcat <br>
+*│       ├── env.sh  //tomcat环境变量 <br>
+*│       ├── tomcatrestart.sh //tomcat启动脚本 <br>
+*│       └── tomcat.sh <br>
+*├── init.sh //构建的主要shell <br>
+*├── jetty //存放jetty的目录 <br>
+*├── README.md <br>
+*├── test.war //测试war包 <br>
+*└── tomcat //存放tomcat的目录 <br>
 
 *2.QUICK START （jetty）
 * 1.将你需要的版本放入上述jetty目录，注意jetty是根目录
