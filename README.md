@@ -32,30 +32,30 @@
 *└── tomcat //存放tomcat的目录 <br>
 
 *2.QUICK START （jetty）
-* 1.将你需要的版本放入上述jetty目录，注意jetty是根目录
-* 2.回到init.sh
-* 3.执行 sh init.sh test 8080
-* 4.你会在bo-install同级目录获得一个test的文件夹目录结构为
-*├── bin
-*│   ├── jetty
-*│   │   ├── env.sh
-*│   │   ├── jetty
-*│   │   ├── jettyrestart.sh //重启脚本
-*│   │   └── jetty.sh
-*│   └── tomcat
-*│       ├── env.sh
-*│       ├── tomcat
-*│       ├── tomcatrestart.sh
-*│       └── tomcat.sh
-*├── conf
-*│   └── webapps
-*├── logs
-*└── war //将要部署war包放在这里，注意war包名称必须和文件夹名称一样
-*5.拷贝bo-install下的test.war到刚刚生成的test目录的war目录下
-*6.进入
-*├── bin
-*│   ├── jetty
-*7.执行 sh jettyrestart.sh 
+* 1.将你需要的版本放入上述jetty目录，注意jetty是根目录 <br>
+* 2.回到init.sh <br>
+* 3.执行 sh init.sh test 8080 <br>
+* 4.你会在bo-install同级目录获得一个test的文件夹目录结构为 <br>
+*├── bin <br>
+*│   ├── jetty <br>
+*│   │   ├── env.sh <br>
+*│   │   ├── jetty <br>
+*│   │   ├── jettyrestart.sh //重启脚本 <br>
+*│   │   └── jetty.sh <br>
+*│   └── tomcat <br>
+*│       ├── env.sh <br>
+*│       ├── tomcat <br>
+*│       ├── tomcatrestart.sh <br>
+*│       └── tomcat.sh <br>
+*├── conf <br>
+*│   └── webapps <br>
+*├── logs <br>
+*└── war //将要部署war包放在这里，注意war包名称必须和文件夹名称一样 <br>
+*5.拷贝bo-install下的test.war到刚刚生成的test目录的war目录下 <br>
+*6.进入 <br>
+*├── bin <br>
+*│   ├── jetty <br>
+*7.执行 sh jettyrestart.sh  <br>
 *8.![](http://7xt9nt.com1.z0.glb.clouddn.com/5a254e68e4b0dce0803585fb?e=1512397944&token=trhI0BY8QfVrIGn9nENop6JAc6l5nZuxhjQ62UfM:Q4M91Dn3vJyKnLGdDD6teR0fz9o=) 看到能访问说明成功！
 
  
